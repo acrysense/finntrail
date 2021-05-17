@@ -1,0 +1,86 @@
+.breadcrumb {
+    &__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 16px;
+    }
+    &__item {
+        &--back {
+            &::before {
+                content: '';
+                display: inline-block;
+                margin-right: 8px;
+                width: 5px;
+                height: 8px;
+                vertical-align: middle;
+                background-image: url(../img/dist/sprite.svg#icon-breadcrumb);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+                transform: rotate(180deg);
+            }
+        }
+    }
+    &__link {
+        font-size: 14px;
+        color: #202020;
+        &:hover,
+        &:focus {
+            color: $finntrail-red-color;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+// MEDIA QUARIES
+@media (min-width: 600px) {
+    .breadcrumb {
+        &__item + &__item {
+            &::before {
+                content: '';
+                display: inline-block;
+                margin: 0 8px 0 10px;
+                width: 5px;
+                height: 8px;
+                vertical-align: middle;
+                background-image: url(../img/dist/sprite.svg#icon-breadcrumb);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center center;
+            }
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .breadcrumb {
+        padding: 18px 15px;
+        margin: -18px -15px 15px;
+        background: #F5F5F5;
+        &__list {
+            margin-bottom: 0;
+        }
+        &__item:not(.breadcrumb__item--active) {
+            display: none;
+        }
+        &__item--active {
+            &::before {
+                content: '';
+                display: inline-block;
+                margin-right: 10px;
+                width: 8px;
+                height: 8px;
+                vertical-align: middle;
+                background-image: url(../img/dist/sprite.svg#icon-breadcrumb-mobile);
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+        }
+        &__link {
+            color: #555555;
+        }
+    }
+}

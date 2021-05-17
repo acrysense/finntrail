@@ -1,0 +1,98 @@
+.footer {
+    background: #202020;
+    &__wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 26px 0;
+        color: $white-color;
+        border-top: 2px solid #3F3F3F;
+    }
+    &__copyright {
+        margin-top: 24px;
+        font-family: $proximanova-bold;
+        font-size: 14px;
+        color: #696969;
+    }
+    &__subtitle {
+        font-family: $proximanova-bold;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+    }
+    &__text {
+        margin-top: 11px;
+        font-size: 14px;
+        color: #ADADAD;
+        a {
+            font-family: $proximanova-bold;
+            color: $white-color;
+            &:focus {
+                color: $finntrail-red-color;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.nav {
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 24px 0;
+    }
+    &__link {
+        color: #C8C8C8;
+        &:hover,
+        &:focus {
+            color: $finntrail-red-color;
+        }
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+// MEDIA QUARIES
+@media (max-width: 599px) {
+    .footer {
+        padding-bottom: 54px;
+        &__wrapper {
+            flex-direction: column-reverse;
+        }
+        &__group {
+            width: 100%;
+            &:first-child {
+                margin-top: 24px;
+                padding-top: 24px;
+                text-align: center;
+                border-top: 2px solid #3F3F3F;
+            }
+        }
+    }
+    .nav {
+        &__list {
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        &__item {
+            &:first-child,
+            &:nth-child(2) {
+                padding: 16px 40px;
+                width: 48%;
+                text-align: center;
+                background: #343434;
+                border-radius: 3px;
+            }
+            &:nth-child(2) {
+                margin-left: 4%;
+            }
+            &:nth-child(n + 3) {
+                margin-top: 22px;
+                width: 100%;
+            }
+        }
+    }
+}

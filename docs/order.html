@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FINNTRAIL</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/app.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__wrapper">
+                    <button class="hamburger" id="hamburger-toggle">Меню</button>
+                    <a href="index.html" class="logotype logotype--header">
+                        <img src="img/dist/logotype.svg" alt="Finntrail Wading Gear">
+                    </a>
+                    <div class="header__inner">
+                        <div class="header__block">
+                            <span class="header__help">Пишите нам на почту</span>
+                            <a href="mailto:info@finntrail.ru" class="header__link header__link--email">info@finntrail.ru</a>
+                        </div>
+                        <div class="header__block">
+                            <span class="header__help">Звонок по РФ бесплатный</span>
+                            <a href="tel:88005558569" class="header__link header__link--phone">8 800 555-85-69</a>
+                        </div>
+                        <button class="header__btn btn btn--sm request-call">Обратный звонок</button>
+                    </div>
+                    <a href="" class="back-call"></a>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <div class="header__wrapper header__wrapper--stretch">
+                    <div class="header__group">
+                        <a href="catalog.html" class="header__button header__button--catalog">
+                            <span class="header__button--title">Каталог</span>
+                        </a>
+                        <div class="catalog-dropdown">
+                            <ul class="catalog-dropdown__list">
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link">Все товары</a>
+                                </li>
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link">Вейдерсы</a>
+                                </li>
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link">Ботинки</a>
+                                </li>
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link">Куртки</a>
+                                </li>
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link">Костюмы</a>
+                                </li>
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link">Зима</a>
+                                </li>
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link">Термоодежда</a>
+                                </li>
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link">Аксессуары</a>
+                                </li>
+                                <li class="catalog-dropdown__item">
+                                    <a href="catalog.html" class="catalog-dropdown__link catalog-dropdown__link--accent">РАСПРОДАЖА</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="offers.html" class="header__button header__button--discount">
+                            <span class="header__button--title">АКЦИИ</span>
+                        </a>
+                    </div>
+                    <div class="header__group">
+                        <div class="dropdown dropdown--hover">
+                            <button class="header__button header__button--user">
+                                <div class="header__button-icon" style="background-image: url(img/dist/sprite.svg#icon-user)"></div>
+                                <div class="header__button-group">
+                                    <span class="header__button-title">Алексей С.</span>
+                                    <span class="header__button-text">AR04564897</span>
+                                </div>
+                            </button>
+                            <ul class="dropdown__list dropdown__list--header">
+                                <li class="dropdown__item">
+                                    <a href="profile.html" class="dropdown__link">Мой профиль</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="my-orders.html" class="dropdown__link">Мои заказы <span>(14)</span></a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <button class="dropdown__btn">Выход</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="basket.html" class="header__button header__button--basket">
+                            <div class="header__button-icon" style="background-image: url(img/dist/sprite.svg#icon-basket)">
+                                <span class="header__button-icon--amount">6</span>
+                            </div>
+                            <div class="header__button-group">
+                                <span class="header__button-title">Корзина</span>
+                                <span class="header__button-text">72 912 ₽</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End of header -->
+    <!-- Mobile menu -->
+    <div class="mobile-menu">
+        <div class="mobile-menu__top">
+            <div class="mobile-menu__topping">
+                <h3 class="mobile-menu__title">Алексей Савин</h3>
+                <span class="mobile-menu__help">AR04564897</span>
+            </div>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link">Каталог</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link">Акции</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link">Заказы</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link">Настройки</a>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="" class="mobile-menu__link">Помощь клиенту</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mobile-menu__bottom">
+            <div class="mobile-menu__info">
+                <a href="mailto:info@finntrail.ru" class="mobile-menu__contact mobile-menu__contact--email">info@finntrail.ru</a>
+                <a href="tel:88005558569" class="mobile-menu__contact mobile-menu__contact--phone">8 800 555-85-69</a>
+                <button class="mobile-menu__btn btn">Обратный звонок</button>
+            </div>
+            <button class="mobile-menu__exit btn btn--lg">Выйти из аккаунта</button>
+        </div>
+    </div>
+    <!-- End of mobile menu -->
+    <!-- Mobile catalog -->
+    <div class="mobile-catalog">
+        <div class="mobile-catalog__top">
+            <h2 class="mobile-catalog__title">Каталог</h2>
+            <button class="mobile-catalog__close">Закрыть</button>
+        </div>
+        <div class="mobile-catalog__wrapper">
+            <a href="catalog.html" class="mobile-catalog__item">
+                <div class="mobile-catalog__img">
+                    <img src="img/dist/catalog-01.png" alt="Все товары">
+                </div>
+                <h3 class="mobile-catalog__name">Все товары</h3>
+            </a>
+            <a href="catalog.html" class="mobile-catalog__item">
+                <div class="mobile-catalog__img">
+                    <img src="img/dist/catalog-01.png" alt="Вейдерсы">
+                </div>
+                <h3 class="mobile-catalog__name">Вейдерсы</h3>
+            </a>
+            <a href="catalog.html" class="mobile-catalog__item">
+                <div class="mobile-catalog__img">
+                    <img src="img/dist/catalog-03.png" alt="Ботинки">
+                </div>
+                <h3 class="mobile-catalog__name">Ботинки</h3>
+            </a>
+            <a href="catalog.html" class="mobile-catalog__item">
+                <div class="mobile-catalog__img">
+                    <img src="img/dist/catalog-02.png" alt="Куртки">
+                </div>
+                <h3 class="mobile-catalog__name">Куртки</h3>
+            </a>
+            <a href="catalog.html" class="mobile-catalog__item">
+                <div class="mobile-catalog__img">
+                    <img src="img/dist/catalog-04.png" alt="Костюмы">
+                </div>
+                <h3 class="mobile-catalog__name">Костюмы</h3>
+            </a>
+            <a href="catalog.html" class="mobile-catalog__item">
+                <div class="mobile-catalog__img">
+                    <img src="img/dist/catalog-05.png" alt="Зима">
+                </div>
+                <h3 class="mobile-catalog__name">Зима</h3>
+            </a>
+            <a href="catalog.html" class="mobile-catalog__item">
+                <div class="mobile-catalog__img">
+                    <img src="img/dist/catalog-06.png" alt="Термоодежда">
+                </div>
+                <h3 class="mobile-catalog__name">Термоодежда</h3>
+            </a>
+            <a href="catalog.html" class="mobile-catalog__item">
+                <div class="mobile-catalog__img">
+                    <img src="img/dist/catalog-07.png" alt="Аксессуары">
+                </div>
+                <h3 class="mobile-catalog__name">Аксессуары</h3>
+            </a>
+            <a href="catalog.html" class="mobile-catalog__item mobile-catalog__item--promotions">
+                <div class="mobile-catalog__promo">%</div>
+                <h3 class="mobile-catalog__name">АКЦИИ</h3>
+            </a>
+        </div>
+    </div>
+    <!-- End of mobile catalog -->
+    <!-- Content -->
+    <div class="content">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol class="breadcrumb__list">
+                    <li class="breadcrumb__item">
+                        <a class="breadcrumb__link" href="index.html">Главная</a>
+                    </li>
+                    <li class="breadcrumb__item breadcrumb__item--active">
+                        <a class="breadcrumb__link" href="my-orders.html">Мои заказы</a>
+                    </li>
+                    <li class="breadcrumb__item">
+                        <a class="breadcrumb__link" href="order.html">TSJ-0234</a>
+                    </li>
+                </ol>
+            </nav>
+            <!-- End of breadcrumb -->
+            <h1>ЗАКАЗ TSJ-0234</h1>
+            <span class="help">от 15.11.2020</span>
+            <div class="orders orders--one">
+                <div class="orders__info">
+                    <div class="orders__block">
+                        <div class="orders__current orders__current--completed">
+                            <div class="orders__current-group">
+                                <span class="orders__current-title">Завершён</span>
+                                <span class="orders__current-data">23.11.2020, 12:45</span>
+                            </div>
+                        </div>
+                        <div class="order">
+                            <span class="order__status order__status--completed">Завершён</span>
+                            <ul class="order__list">
+                                <li class="order__item">
+                                    <span class="order__item--status">Заказ принят</span>
+                                    <span class="order__item--data">23.11.2020, 12:45</span>
+                                </li>
+                                <li class="order__item">
+                                    <span class="order__item--status">Комплектуется</span>
+                                    <span class="order__item--data">23.11.2020, 12:45</span>
+                                </li>
+                                <li class="order__item">
+                                    <span class="order__item--status">Отправлен</span>
+                                    <span class="order__item--data">23.11.2020, 12:45</span>
+                                </li>
+                                <li class="order__item order__item--active">
+                                    <span class="order__item--status">Выполнен</span>
+                                    <span class="order__item--data">23.11.2020, 12:45</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="" class="orders__details detailted-status">Подробный статус</a>
+                        <a href="" class="orders__details mobile-detailted-status">Подробный статус</a>
+                    </div>
+                    <div class="orders__block">
+                        <div class="orders__group">
+                            <h4 class="orders__subtitle">Сумма заказа</h4>
+                            <span class="orders__sum">101 344 ₽</span>
+                        </div>
+                        <div class="orders__group">
+                            <h4 class="orders__subtitle">Контрагент</h4>
+                            <span class="orders__subtext">ИП Иванова Елена Андреевна</span>
+                        </div>
+                        <div class="orders__group">
+                            <h4 class="orders__subtitle">Адрес доставки</h4>
+                            <span class="orders__subtext">г. Александровск, ул. Чесменская, дом 173</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="orders__wrapper">
+                    <div class="orders__head">
+                        <button class="orders__heading">Название товара</button>
+                        <button class="orders__heading">Артикул</button>
+                        <button class="orders__heading">Размер</button>
+                        <button class="orders__heading">Количество</button>
+                        <button class="orders__heading">Цена за шт</button>
+                        <button class="orders__heading">ИТОГО</button>
+                    </div>
+                    <div class="orders__list">
+                        <div class="orders__item">
+                            <a href="catalog.html" class="orders__order-number">SPEEDMASTER-Z</a>
+                            <span class="orders__text">1526</span>
+                            <span class="orders__text">S</span>
+                            <span class="orders__text">7</span>
+                            <span class="orders__text">13 192 ₽</span>
+                            <span class="orders__text orders__text--sum">64 345 ₽</span>
+                        </div>
+                        <div class="orders__item">
+                            <a href="catalog.html" class="orders__order-number">SPEEDMASTER-Z</a>
+                            <span class="orders__text">1526</span>
+                            <span class="orders__text">S</span>
+                            <span class="orders__text">7</span>
+                            <span class="orders__text">13 192 ₽</span>
+                            <span class="orders__text orders__text--sum">64 345 ₽</span>
+                        </div>
+                        <div class="orders__item">
+                            <a href="catalog.html" class="orders__order-number">SPEEDMASTER-Z</a>
+                            <span class="orders__text">1526</span>
+                            <span class="orders__text">S</span>
+                            <span class="orders__text">7</span>
+                            <span class="orders__text">13 192 ₽</span>
+                            <span class="orders__text orders__text--sum">64 345 ₽</span>
+                        </div>
+                        <div class="orders__item">
+                            <a href="catalog.html" class="orders__order-number">SPEEDMASTER-Z</a>
+                            <span class="orders__text">1526</span>
+                            <span class="orders__text">S</span>
+                            <span class="orders__text">7</span>
+                            <span class="orders__text">13 192 ₽</span>
+                            <span class="orders__text orders__text--sum">64 345 ₽</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="orders__mobile">
+                    <h2 class="orders__caption">Состав заказа</h2>
+                    <div class="orders__product">
+                        <div class="orders__img">
+                            <img src="img/dist/product-01.png" alt="sadas">
+                        </div>
+                        <div class="orders__content">
+                            <div class="orders__content-top">
+                                <span class="orders__type">Вейдерсы</span>
+                                <span class="orders__vendor-code">Артикул: <span>1526</span></span>
+                            </div>
+                            <h3 class="orders__name">SPEEDMASTER-Z</h3>
+                            <div class="orders__parameters">
+                                <span class="orders__text">Размер: <b>M</b></span>
+                                <span class="orders__text">Цвет: <b>Красный</b></span>
+                                <span class="orders__sum">12 152 ₽</span>
+                                <span class="orders__text">(1 шт)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="orders__product">
+                        <div class="orders__img">
+                            <img src="img/dist/product-01.png" alt="sadas">
+                        </div>
+                        <div class="orders__content">
+                            <div class="orders__content-top">
+                                <span class="orders__type">Вейдерсы</span>
+                                <span class="orders__vendor-code">Артикул: <span>1526</span></span>
+                            </div>
+                            <h3 class="orders__name">SPEEDMASTER-Z</h3>
+                            <div class="orders__parameters">
+                                <span class="orders__text">Размер: <b>M</b></span>
+                                <span class="orders__text">Цвет: <b>Красный</b></span>
+                                <span class="orders__sum">12 152 ₽</span>
+                                <span class="orders__text">(1 шт)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of content -->
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="catalog.html" class="nav__link">Каталог</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="offers.html" class="nav__link">Акции</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="documents.html" class="nav__link">Документы</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="reclamation.html" class="nav__link">Рекламации</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="offer.html" class="nav__link">Рекламные материалы</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="agreement.html" class="nav__link">Соглашение об использовании портала</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__wrapper">
+                <div class="footer__group">
+                    <a href="index.html" class="logotype">
+                        <img src="img/dist/logotype.svg" alt="Finntrail Wading Gear">
+                    </a>
+                    <p class="footer__copyright">© 2020 Finntrail team.</p>
+                </div>
+                <div class="footer__group">
+                    <h3 class="footer__subtitle">КОНТАКТЫ</h3>
+                    <p class="footer__text">Телефон: <a href="tel:88005558569">8 800 555-85-69</a></p>
+                    <p class="footer__text">E-mail: <a href="mailto:info@finntrail.ru">info@finntrail.ru</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+    <!-- Mobile nav -->
+    <div class="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__item">
+                <a href="index.html" class="mobile-nav__link">
+                    <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 528.93 529">
+                        <defs><style>.cls-1{fill:#4F4F4F;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M512.71,225,304.09,16.42a56,56,0,0,0-79.26,0L16.52,224.73l-.32.32a56,56,0,0,0,37.14,95.41c.45,0,.91.07,1.37.08v144.4A64.12,64.12,0,0,0,118.77,529h81.55a24,24,0,0,0,24-24V384.77a16.14,16.14,0,0,1,16.12-16.12h48.1a16.14,16.14,0,0,1,16.12,16.12V505a24,24,0,0,0,24,24h81.55a64.12,64.12,0,0,0,64.06-64.06V320.53a56,56,0,0,0,38.5-95.5Zm-224.2,95.68h-48.1a64.13,64.13,0,0,0-64.06,64.06v96.29H118.77a16.14,16.14,0,0,1-16.12-16.12V296.58a24,24,0,0,0-24-24h-22q-.4,0-.81,0a8,8,0,0,1-5.57-2.35,8.13,8.13,0,0,1-1.76-8.83h.42L51,258,258.74,50.31a8.09,8.09,0,0,1,11.45,0L478.58,258.7l.15.15a8.13,8.13,0,0,1-.08,11.38,7.94,7.94,0,0,1-5.73,2.38H450.24a24,24,0,0,0-24,24V464.94a16.14,16.14,0,0,1-16.12,16.12H352.57V384.77A64.12,64.12,0,0,0,288.51,320.71Z"/></g></g>
+                    </svg>
+                    <span>Главная</span>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="catalog.html" class="mobile-nav__link">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.3018 13.3525H4.94002C4.55418 13.3525 4.24146 13.0398 4.24146 12.654C4.24146 12.2681 4.55418 11.9554 4.94002 11.9554H14.3015C14.6874 11.9554 15.0001 12.2681 15.0001 12.654C15.0001 13.0398 14.6876 13.3525 14.3018 13.3525Z" fill="#4F4F4F"/>
+                        <path d="M14.3018 8.9676H4.94002C4.55418 8.9676 4.24146 8.65488 4.24146 8.26903C4.24146 7.88319 4.55418 7.57047 4.94002 7.57047H14.3015C14.6874 7.57047 15.0001 7.88319 15.0001 8.26903C15.0003 8.65488 14.6876 8.9676 14.3018 8.9676Z" fill="#4F4F4F"/>
+                        <path d="M14.3018 4.58272H4.94002C4.55418 4.58272 4.24146 4.26999 4.24146 3.88415C4.24146 3.49831 4.55418 3.18559 4.94002 3.18559H14.3015C14.6874 3.18559 15.0001 3.49831 15.0001 3.88415C15.0001 4.26999 14.6876 4.58272 14.3018 4.58272Z" fill="#4F4F4F"/>
+                        <path d="M1.93818 4.87635C2.45632 4.87635 2.87635 4.45632 2.87635 3.93818C2.87635 3.42004 2.45632 3 1.93818 3C1.42004 3 1 3.42004 1 3.93818C1 4.45632 1.42004 4.87635 1.93818 4.87635Z" fill="#4F4F4F"/>
+                        <path d="M1.93818 9.20723C2.45632 9.20723 2.87635 8.7872 2.87635 8.26906C2.87635 7.75092 2.45632 7.33088 1.93818 7.33088C1.42004 7.33088 1 7.75092 1 8.26906C1 8.7872 1.42004 9.20723 1.93818 9.20723Z" fill="#4F4F4F"/>
+                        <path d="M1.93818 13.5381C2.45632 13.5381 2.87635 13.1181 2.87635 12.5999C2.87635 12.0818 2.45632 11.6618 1.93818 11.6618C1.42004 11.6618 1 12.0818 1 12.5999C1 13.1181 1.42004 13.5381 1.93818 13.5381Z" fill="#4F4F4F"/>
+                    </svg>
+                    <span>Каталог</span>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="my-orders.html" class="mobile-nav__link">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.4839 1H0.516129C0.379243 1 0.247964 1.05438 0.151171 1.15117C0.0543777 1.24796 0 1.37924 0 1.51613L0 4.35484C0 4.49172 0.0543777 4.623 0.151171 4.7198C0.247964 4.81659 0.379243 4.87097 0.516129 4.87097H0.774194V15.1935C0.774194 15.3304 0.828571 15.4617 0.925364 15.5585C1.02216 15.6553 1.15344 15.7097 1.29032 15.7097H14.7097C14.8466 15.7097 14.9778 15.6553 15.0746 15.5585C15.1714 15.4617 15.2258 15.3304 15.2258 15.1935V4.87097H15.4839C15.6208 4.87097 15.752 4.81659 15.8488 4.7198C15.9456 4.623 16 4.49172 16 4.35484V1.51613C16 1.37924 15.9456 1.24796 15.8488 1.15117C15.752 1.05438 15.6208 1 15.4839 1V1ZM14.9677 3.83871H10.3226V2.03226H14.9677V3.83871ZM9.29032 2.03226V7.07226L8.28645 6.48903C8.20799 6.44373 8.11899 6.41988 8.02839 6.41988C7.93779 6.41988 7.84878 6.44373 7.77032 6.48903L6.70968 7.08516V2.03226H9.29032ZM1.03226 2.03226H5.67742V3.83871H1.03226V2.03226ZM14.1935 14.6774H1.80645V4.87097H5.67742V7.96774C5.67706 8.05852 5.70064 8.14778 5.7458 8.22653C5.79095 8.30527 5.85607 8.37072 5.93459 8.41626C6.01312 8.46181 6.10226 8.48583 6.19303 8.48592C6.28381 8.48601 6.373 8.46216 6.45161 8.41677L8.02839 7.52903L9.54839 8.41419C9.62681 8.45947 9.71576 8.48332 9.80632 8.48334C9.89687 8.48337 9.98584 8.45956 10.0643 8.41433C10.1427 8.36909 10.2079 8.30401 10.2532 8.22562C10.2986 8.14723 10.3225 8.0583 10.3226 7.96774V4.87097H14.1935V14.6774Z" fill="#4F4F4F"/>
+                        <path d="M6.0645 11.0645H2.96773C2.83084 11.0645 2.69956 11.1189 2.60277 11.2157C2.50598 11.3125 2.4516 11.4438 2.4516 11.5806C2.4516 11.7175 2.50598 11.8488 2.60277 11.9456C2.69956 12.0424 2.83084 12.0968 2.96773 12.0968H6.0645C6.20139 12.0968 6.33267 12.0424 6.42946 11.9456C6.52625 11.8488 6.58063 11.7175 6.58063 11.5806C6.58063 11.4438 6.52625 11.3125 6.42946 11.2157C6.33267 11.1189 6.20139 11.0645 6.0645 11.0645Z" fill="#4F4F4F"/>
+                        <path d="M4.90321 12.871H2.96773C2.83084 12.871 2.69956 12.9253 2.60277 13.0221C2.50598 13.1189 2.4516 13.2502 2.4516 13.3871C2.4516 13.524 2.50598 13.6553 2.60277 13.7521C2.69956 13.8489 2.83084 13.9032 2.96773 13.9032H4.90321C5.0401 13.9032 5.17138 13.8489 5.26817 13.7521C5.36496 13.6553 5.41934 13.524 5.41934 13.3871C5.41934 13.2502 5.36496 13.1189 5.26817 13.0221C5.17138 12.9253 5.0401 12.871 4.90321 12.871Z" fill="#4F4F4F"/>
+                    </svg>
+                    <span>Заказы</span>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a href="profile.html" class="mobile-nav__link">
+                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.8423 9C15.8423 10.897 15.0661 12.6157 13.8145 13.8566C13.5413 13.0321 13.0579 12.2856 12.402 11.6921C12.0273 11.353 11.6083 11.075 11.1593 10.8636C12.0229 10.2093 12.5824 9.17256 12.5824 8.0072C12.5824 6.03179 10.9754 4.42493 9 4.42493C7.0246 4.42493 5.41774 6.03179 5.41774 8.0072C5.41774 9.17256 5.97721 10.2093 6.84068 10.8636C6.39183 11.0749 5.97271 11.3528 5.59801 11.692C4.94223 12.2855 4.45875 13.032 4.18545 13.8565C2.9339 12.6156 2.1577 10.8969 2.1577 9C2.1577 5.22725 5.22725 2.1577 9 2.1577C12.7727 2.1577 15.8423 5.22725 15.8423 9ZM14.6922 3.30778C13.172 1.78754 11.1499 0.95 9 0.95C6.84995 0.95 4.82803 1.78754 3.30778 3.30778C1.78754 4.82803 0.95 6.84995 0.95 9C0.95 11.1499 1.78754 13.172 3.30778 14.6922C4.82803 16.2125 6.84995 17.05 9 17.05C11.1499 17.05 13.172 16.2125 14.6922 14.6922C16.2125 13.172 17.05 11.1499 17.05 9C17.05 6.84995 16.2125 4.82803 14.6922 3.30778ZM5.2105 14.6941C5.56475 12.9016 7.13617 11.5895 9 11.5895C10.8639 11.5895 12.4353 12.9016 12.7895 14.6941C11.7038 15.419 10.4006 15.8423 9 15.8423C7.59939 15.8423 6.29616 15.419 5.2105 14.6941ZM6.62544 8.0072C6.62544 6.69788 7.69079 5.63263 9 5.63263C10.3092 5.63263 11.3746 6.69799 11.3746 8.0072C11.3746 9.3164 10.3092 10.3818 9 10.3818C7.6908 10.3818 6.62544 9.3164 6.62544 8.0072Z" fill="#4F4F4F" stroke="#4F4F4F" stroke-width="0.1"/>
+                    </svg>
+                    <span>Профиль</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of mobile nav -->
+    <!-- Pop-up list -->
+    <div class="pop-up pop-up--call">
+        <ul class="pop-up__list">
+            <li class="pop-up__item">
+                <a href="tel:88005558569" class="pop-up__link">Позвонить</a>
+            </li>
+            <li class="pop-up__item">
+                <a href="" class="pop-up__link request-call-mobile">Заказать звонок</a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of pop-up list -->
+    <!-- Modal -->
+    <div class="modal modal--request-call">
+        <div class="modal__scroll">
+            <div class="modal__wrapper">
+                <h3 class="modal__title">Заказать звонок</h3>
+                <form action="" class="modal-form">
+                    <div class="modal-form__group">
+                        <span class="modal-form__help">Имя<b>*</b></span>
+                        <input type="text" class="modal-form__input input" placeholder="Ваше имя">
+                    </div>
+                    <div class="modal-form__group">
+                        <span class="modal-form__help">Телефон<b>*</b></span>
+                        <input type="tel" class="modal-form__input input" data-inputmask="'mask': '+7 (999) 999-99-99'" placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <div class="modal-form__group">
+                        <span class="modal-form__help">E-mail</span>
+                        <input type="email" class="modal-form__input input" placeholder="example@email.com">
+                    </div>
+                    <div class="modal-form__checkbox">
+                        <label for="consent-checkbox" class="square-checkbox">
+                            <span class="square-checkbox__group">
+                                <input type="checkbox" class="square-checkbox__input" id="consent-checkbox">
+                                <span class="square-checkbox__icon"></span>
+                                <span class="square-checkbox__label square-checkbox__label--bold">Я соглашаюсь с <a href="agreement.html">политикой конфиденциальности</a></span>
+                            </span>
+                        </label>
+                    </div>
+                    <button class="modal-form__btn btn">Заказать</button>
+                </form>
+                <button class="modal__close">Закрыть</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal--order">
+        <div class="modal__wrapper">
+            <h3 class="modal__title">СТАТУС ЗАКАЗА</h3>
+            <div class="order">
+                <span class="order__status order__status--completed">Завершён</span>
+                <ul class="order__list">
+                    <li class="order__item">
+                        <span class="order__item--status">Заказ принят</span>
+                        <span class="order__item--data">23.11.2020, 12:45</span>
+                    </li>
+                    <li class="order__item">
+                        <span class="order__item--status">Комплектуется</span>
+                        <span class="order__item--data">23.11.2020, 12:45</span>
+                    </li>
+                    <li class="order__item">
+                        <span class="order__item--status">Отправлен</span>
+                        <span class="order__item--data">23.11.2020, 12:45</span>
+                    </li>
+                    <li class="order__item order__item--active">
+                        <span class="order__item--status">Выполнен</span>
+                        <span class="order__item--data">23.11.2020, 12:45</span>
+                    </li>
+                </ul>
+            </div>
+            <button class="modal__close">Закрыть</button>
+        </div>
+    </div>
+    <div class="modal-overlay"></div>
+    <!-- End of modal -->
+    <!-- Scripts -->
+    <script src="js/vendor.min.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
